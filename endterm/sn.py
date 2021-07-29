@@ -13,7 +13,7 @@ clock = pygame.time.Clock()
 pygame.display.set_caption("жуланчик")
 font_score = pygame.font.SysFont('Arial', 26, bold = True)
 font_end = pygame.font.SysFont('Arial', 50, bold = True)
-bg_intro = pygame.image.load('1.jpg')
+bg_intro = pygame.image.load('intro.jpg')
 
 def start_the_game(): 
     x, y = randrange(size, res-size, size), randrange(size, res-size, size)

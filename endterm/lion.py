@@ -13,7 +13,6 @@ class Burger(pygame.sprite.Sprite):
     def __init__(self, filename):
         super().__init__()
         self.image = pygame.image.load(filename).convert()
-        self.image.set_colorkey(BLACK)
         self.rect = self.image.get_rect()
 
 
